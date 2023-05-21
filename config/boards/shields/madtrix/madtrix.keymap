@@ -162,7 +162,7 @@ behaviors {
                         bindings = <
    &kp N1           &kp N2           &kp N3       &kp N4        &kp N5    &kp N6    &kp N7   &kp N8    &kp N9    &kp N0
    &kp LSHFT        &kp LCTRL        &kp LALT     &kp LGUI      &kp K_APP &kp K_APP &kp RGUI &kp RALT  &kp RCTRL &kp RSHFT
-   &trans           &bt BT_SEL 0     &bt BT_SEL 1 &bt BT_SEL 2  &trans    &trans    &trans   &kp COMMA &kp DOT   &kp FSLH
+   U_MSS_TP_V6_I    U_MSS_TP_V6_D    U_MSS_TP_PT_I   U_MSS_TP_PT_D  &trans    U_MSS_TP_S_I U_MSS_TP_S_D   &kp COMMA &kp DOT   &kp FSLH
                     &trans            &trans       &trans        &kp N0    &kp SPACE   &trans
                         >;
                 };
