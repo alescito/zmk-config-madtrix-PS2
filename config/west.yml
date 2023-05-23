@@ -7,7 +7,7 @@ manifest:
   projects:
     - name: zmk
       remote: infused-kim
-      revision: pr/mouse_ps2
+      revision: pr-testing/mouse_ps2
       import: app/west.yml
   self:
     path: config
