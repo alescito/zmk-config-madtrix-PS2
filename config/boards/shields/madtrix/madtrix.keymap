@@ -22,10 +22,6 @@
                 , <&bt BT_SEL 0>
                 ;
         };
-    };
-};
-/ {
-    macros {
         bl_pc_monitor: bl_pc_monitor {
             label = "ZM_bl_pc_monitor";
             compatible = "zmk,behavior-macro";
@@ -38,6 +34,7 @@
         };
     };
 };
+
 / {
     macros {
         bl_work: bl_work {
