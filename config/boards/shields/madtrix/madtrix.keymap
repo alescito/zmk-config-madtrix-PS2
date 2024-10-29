@@ -94,10 +94,6 @@ behaviors {
             flavor = "tap-preferred";
             bindings = <&mo>, <&sk>;
         };
-    };
-};
-
-behaviors {
         ca: shif_control {
             compatible = "zmk,behavior-hold-tap";
             label = "Shif_Control";
