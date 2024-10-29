@@ -96,6 +96,18 @@ behaviors {
         };
     };
 };
+/{
+behaviors {
+        ca: control_alt {
+            compatible = "zmk,behavior-hold-tap";
+            label = "Shif_Control";
+            #binding-cells = <2>;
+            tapping_term_ms = <230>;
+            flavor = "tap-preferred";
+            bindings = <&kp>, <&sk>;
+        };
+    };
+};
 
 #define NAV 1
 #define SYM 2
@@ -122,7 +134,7 @@ behaviors {
    &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I &kp O &kp P
    &kp A &kp S &kp D &kp F  &kp G   &kp H &kp J &kp K &kp L &kp SEMI  
    &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH
-         &mt LSHIFT RET  &sc NUM LSHIFT &sl SYM &lt SYM RET &lt NAV SPACE &sc RCTRL RALT
+         &mt LSHIFT RET  &sc NUM LSHIFT &sl SYM &lt SYM RET &lt NAV SPACE &ca RCTRL RALT
                         >;
                 };
                 nav_layer {
