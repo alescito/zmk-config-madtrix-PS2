@@ -32,11 +32,6 @@
                 , <&bt BT_SEL 1>
                 ;
         };
-    };
-};
-
-/ {
-    macros {
         bl_work: bl_work {
             label = "ZM_bl_work";
             compatible = "zmk,behavior-macro";
@@ -47,10 +42,6 @@
                 , <&bt BT_SEL 0>
                 ;
         };
-    };
-};
-/ {
-    macros {
         bl_PC: bl_PC {
             label = "ZM_bl_PC";
             compatible = "zmk,behavior-macro";
@@ -61,10 +52,6 @@
                 , <&bt BT_SEL 1>
                 ;
         };
-    };
-};
-/ {
-    macros {
         bl_PI: bl_PI {
             label = "ZM_bl_PI";
             compatible = "zmk,behavior-macro";
@@ -74,8 +61,10 @@
                 , <&kp F5 >
                 ;
         };
+
     };
 };
+
 &sk {
     release-after-ms = <2000>;
     quick-release;
